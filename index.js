@@ -120,6 +120,16 @@ app.get('/batman', (request, response) => {
 	response.send(JSON.stringify(batMan, null, 4))
 })
 
+// Load your JSON data
+const favoritePlaces = require('./FavoritePlaces.json');
+
+// Create a route that serves the JSON data
+app.get('/api/favorite-places', (req, res) => {
+  res.json(favoritePlaces);
+});
+
+
+
 // Custom 404 page.
 app.use((request, response) => {
   response.type('text/plain')

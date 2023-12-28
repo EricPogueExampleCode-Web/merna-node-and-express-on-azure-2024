@@ -1,0 +1,92 @@
+[
+    {
+        "location": {
+            "lat": 41.5250,
+            "lng": -88.0817
+        },
+        "title": "Joliet, IL" ,
+        "iconImage": "https://img.icons8.com/flat-round/40/home--v1.png",
+        "content": "<div><h1>Joliet, IL</h1><p>This is my hometown! I currently live here and <br>have for the last 20 years!</p></div>"
+    },
+    {
+        "location": {
+            "lat": 40.4168,
+            "lng": -3.7038
+        },
+        "title": "Madrid, Spain" ,
+        "iconImage": "https://img.icons8.com/color/40/football2--v1.png",
+        "content": "<div><h1>Madrid, Spain</h1><p>Where my favorite soccer team in the world is located.<br>It is my dream Vacation to go here and watch them!</p></div>"
+    },
+    {
+        "location": {
+            "lat": 53.4808,
+            "lng": -2.2426
+        },
+        "title": "Manchester, England" ,
+        "iconImage": "https://img.icons8.com/quill/40/football.png" ,
+        "content": "<div><h1>Manchester, England</h1><p>My second favorite soccer team in the world. They play in the<br>best league so I would love to watch them play a game live as well!</p></div>"
+    }, 
+    {
+        "location": {
+            "lat": 55.9533,
+            "lng": -3.1883
+        },
+        "title": "Edinburgh, Scotland" ,
+        "iconImage": "https://img.icons8.com/stickers/40/palace.png",
+        "content": "<div><h1>Edinburgh, Scotland</h1><p>I would love to visit this magical looking city!<br>The architecture is a true thing of beauty! Castles everywhere!</p></div>"
+    },
+    {
+        "location": {
+            "lat": 35.6762,
+            "lng": 139.6503
+        },
+        "title": "Tokyo, Japan" ,
+        "iconImage": "https://img.icons8.com/color/40/japan-circular.png",
+        "content": "<div><h1>Tokyo, Japan</h1><p>One of my dream vacations! I am a big anime fan<br>and would love to visit Japan and experience the culture!</p></div>"
+    }, 
+    {
+        "location": {
+            "lat": 20.6595,
+            "lng": -103.3494
+        },
+        "title": "Jalisco, Mexico" ,
+        "iconImage": "https://img.icons8.com/external-justicon-lineal-color-justicon/40/external-mexico-countrys-flags-justicon-lineal-color-justicon.png",
+        "content": "<div><h1>Jalisco, Mexico</h1><p>Where I was born! Lived here for two years and<br>then moved to the United States. This is where my family is from!</p></div>"
+    },
+    {
+        "location": {
+            "lat": 47.0502,
+            "lng": 8.3093
+        },
+        "title": "Lucerne, Switzerland" ,
+        "iconImage": "https://img.icons8.com/ios-filled/40/ski-resort.png",
+        "content": "<div><h1>Lucerne, Switzerland</h1><p>Having seen the absolutley stunning views and<br>landscapes, this is a must visit in my life!</p></div>"
+    },
+    {
+        "location": {
+            "lat": -8.3405,
+            "lng": 115.0920
+        },
+        "title": "Bali, Indonesia" ,
+        "iconImage": "https://img.icons8.com/ios/40/island-on-water.png",
+        "content": "<div><h1>Bali, Indonesia</h1><p>Who doesn't want to visit Bali right?</p></div>"
+    },
+    {
+        "location": {
+            "lat": 63.8434,
+            "lng": -22.4360
+        },
+        "title": "Grindavik, Iceland" ,
+        "iconImage": "https://img.icons8.com/ios-filled/40/lake.png",
+        "content": "<div><h1>Grindavik, Iceland</h1><p>It has always been one of my life goals to visit<br>the blue laggons in Iceland!</p></div>"
+    }, 
+    {
+        "location": {
+            "lat": 36.3932,
+            "lng": 25.4615
+        },
+        "title": "Santorini, Greece" ,
+        "iconImage": "https://img.icons8.com/cotton/40/parthenon--v1.png",
+        "content": "<div><h1>Santorini, Greece</h1><p>Do I need to say anything else?</p></div>"
+    }
+]
