@@ -6,7 +6,7 @@ var dt = require('./date-time');
 
 const port = process.env.PORT || 3000
 const majorVersion = 1
-const minorVersion = 2
+const minorVersion = 3
 
 // Use Express to publish static HTML, CSS, and JavaScript files that run in the browser. 
 app.use(express.static(__dirname + '/static'))
@@ -89,7 +89,7 @@ app.get('/test', (request, response) => {
 })
 
 // Return Batman as JSON.
-var spiderMan = {
+const batMan = {
 	"firstName":"Bruce",
 	"lastName":"Wayne",
 	"preferredName":"Batman",
@@ -117,7 +117,7 @@ var spiderMan = {
 app.get('/batman', (request, response) => {
 	console.log('Calling "/batman" on the Node.js server.')
 	response.type('application/json')
-	response.send(JSON.stringify(spiderMan, null, 4))
+	response.send(JSON.stringify(batMan, null, 4))
 })
 
 // Custom 404 page.
