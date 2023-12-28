@@ -1,6 +1,8 @@
 const express = require('express')
 app = express()
 
+const cors = require("cors")
+
 var url = require('url');
 var dt = require('./date-time');
 
@@ -10,6 +12,8 @@ const minorVersion = 3
 
 // Use Express to publish static HTML, CSS, and JavaScript files that run in the browser. 
 app.use(express.static(__dirname + '/static'))
+app.use(cors({ origin: '*' }))
+
 
 // The app.get functions below are being processed in Node.js running on the server.
 // Implement a custom About page.
