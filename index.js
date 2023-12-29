@@ -126,7 +126,7 @@ const batMan = {
 app.get('/batman', (request, response) => {
 	console.log('Calling "/batman" on the Node.js server.')
 	response.type('application/json')
-	response.send(JSON.stringify(batMan, null, 4))
+	response.send(JSON.stringify(batMan))
 })
 
 // Load your JSON data
