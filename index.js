@@ -14,7 +14,6 @@ const minorVersion = 3
 app.use(express.static(__dirname + '/static'))
 app.use(cors({ origin: '*' }))
 
-
 // The app.get functions below are being processed in Node.js running on the server.
 // Implement a custom About page.
 app.get('/about', (request, response) => {
@@ -27,6 +26,12 @@ app.get('/version', (request, response) => {
 	console.log('Calling "/version" on the Node.js server.')
 	response.type('text/plain')
 	response.send('Version: '+majorVersion+'.'+minorVersion)
+})
+
+app.get('/api/ping', (request, response) => {
+	console.log('Calling "/api/ping"')
+	response.type('text/plain')
+	response.send('ping response')
 })
 
 // Return the value of 2 plus 2.
